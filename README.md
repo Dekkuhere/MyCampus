@@ -1,8 +1,12 @@
-# For1 (React + Vite)
+# For1
 
-    npm install
-    npm run dev      # development
-    npm run build    # production build
+Student-first campus portal (React + Vite).
 
-Structure: `src/components` (Landing, CampusFlow, Dashboard pieces), `src/data` (campuses, mock content).
-Mock content in `src/data/content.js` should be replaced with real API data per student.
+```bash
+npm install
+npm run dev      # local dev server
+npm run build    # production build in dist/
+```
+
+- `src/components` holds the UI pieces; `src/data.js` holds the sample data (campuses, subjects, results). All names, dates, grades are placeholders.
+- Nothing is saved yet: student details live in React state until a backend is added.
